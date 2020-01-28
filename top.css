@@ -379,8 +379,8 @@ body{
 
   /* mobile-共通 */
   h3{
-    text-align:center;
-  	font-size:30px;
+    text-align:center !important;
+    font-size:30px;
   }
   .svg1{
     position: relative;

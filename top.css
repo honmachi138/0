@@ -185,7 +185,7 @@ h3{
 }
 /* PC 
 ------------------------------------------------------------*/
-@media screen and (min-width:960px){
+@media only screen and (min-width: 800px){
 body{
         font-size:14px;
     }
@@ -282,8 +282,7 @@ body{
 /* mobile
 ------------------------------------------------------------*/
   /* mobile-navi */
-@media screen and (max-width:960px),
-       screen and (orientation: landscape){
+@media only screen and (max-width: 799px){
   a#menu{
     display: inline-block;
     position: relative;
@@ -380,7 +379,7 @@ body{
 
   /* mobile-共通 */
   h3{
-    text-align:center !important;
+    text-align:center;
     font-size:30px;
   }
   .svg1{

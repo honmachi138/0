@@ -245,9 +245,13 @@ h3{
     position: relative;
     top: -300px;
   }
-  .svg1,#sec01{
+  #sec01{
     position: relative;
-    top: -190px
+    top: -190px;
+}
+  .svg1{
+    position: relative;
+    top: -200px;
 }
 
   /* pc-SEC02 SHOP */

@@ -1,0 +1,388 @@
+/*all*/
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+.wrap {
+     overflow: hidden;
+ }
+ul{list-style:none;}
+* {margin: 0;}/* セクション間を0に*/
+svg{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover, .active{
+  text-decoration: underline;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+h1{
+   color: #000;
+   text-align: center;
+   font-size:25px;
+  }
+/* 画面外にいる状態 */
+.fadein {
+    opacity : 0.1;
+    transform : translate(0, 50px);
+    transition : all 500ms;
+    }
+
+/* 画面内に入った状態 */
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+    }
+/*#sec01 写真*/
+#sec01{
+  position: relative;
+    overflow:hidden;
+    width:100%;
+    height:568px;
+}
+
+#sec01 img{
+    position:absolute;
+    left:50%;
+    width:1280px;
+    height:568px;
+    margin-left:-640px;
+}
+/* #sec02 基本情報 */
+#sec02 img{
+    width:30px;
+    padding-right: 1vw;
+}
+td {
+text-align: left;
+vertical-align: baseline;
+line-height:30px;
+}
+table{
+    margin: 3% auto;
+}
+/* #sec03 写真1 */
+#sec03{
+  z-index:300;
+}
+/* #sec04 文章 */
+#sec04{
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+    }
+.textbox{
+  background-color: #FFC0CB ;
+}
+/* #sec05 写真 */
+#img2{
+  z-index:300;
+}
+/* #sec06 写真 */
+#img3{
+  z-index:200;
+}
+
+/* PC */
+@media screen and (min-width:800px) {
+  /* ヘッダー */
+  a#menu{
+        display:none;
+    }   
+    .panel{
+        display:block !important;
+    }
+    #mainnav{
+        position:fixed;
+        top: 0;
+        width:100vw;
+        z-index:500;
+    }
+    #mainnav ul{
+        text-align: right;
+        padding-right: 30px;
+    }
+    #mainnav li{
+        display: inline-block;
+        padding: 45px 10px 20px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+  #mainnav a{
+        color: #000;
+    }
+    #mainnav.changeNav{
+        background: rgba(255,255,255,.9);
+        border-bottom: 1px solid #d1d1d1;
+    }
+    #mainnav.changeNav li{
+        padding: 20px 10px;
+    }
+/* pc svg */
+.svg1{
+  position: relative;
+  top: -170px;
+}
+/* pc #SEC02 */
+.container{
+    display: flex;
+    flex-flow:row wrap; 
+    width:100%;
+    }
+#sec02{
+  position: relative;
+  top: -180px;
+  padding: 0 5%;
+}
+h1{padding-top: 2%;}
+/* pc #SEC03 */
+#sec03{
+  position: relative;
+  top: -150px;
+}
+#img1{
+  width: 75%;
+  padding: 5% 45% 3% 5%;
+}
+/* pc #SEC04 */
+.textbox{
+  width: 35%;
+  height: 400px;
+}
+#sec04 h1 {
+  white-space: nowrap;
+  padding: 5%;
+  font-size: 37px;
+  margin-left: 10px;
+  position: relative;
+  top: 50px;
+  right:-30px;
+}
+#sec04 p {
+  padding: 3%;
+  line-height: 2;
+  margin-left: 20px;
+  position: relative;
+  top: 150px;
+  right:-40px;
+}
+#sec04{
+  width: 100%;
+  position: relative;
+  top: -300px;
+  right:5%;
+}
+/* pc #SEC05 */
+#img2{
+  width: 60%;
+  position: relative;
+  top: -350px;
+  padding-left:5%;
+}
+/* pc #SEC06 */
+#img3{
+  width: 40%;
+  position: relative;
+  top: -400px;
+  padding-left:55%;
+  font-size: 10px;
+}
+}
+ /* mobile phone */
+@media screen and (max-width:799px) {
+  /* ヘッダー */
+  a#menu{
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    }
+    #menuBtn{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 2px;
+    margin: -1px 0 0 -7px;
+    background: #000;
+    transition: .2s;
+    }
+    #menuBtn:before, #menuBtn:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 18px;
+    height: 2px;
+    background: #000;
+    transition: .3s;
+    }
+    #menuBtn:before{
+    margin-top: -7px;
+    }
+    #menuBtn:after{
+    margin-top: 5px;
+    }
+    a#menu .close{
+    background: transparent;
+    }
+    a#menu .close:before, a#menu .close:after{
+    margin-top: 0;
+    }
+    a#menu .close:before{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    }
+    a#menu .close:after{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    }
+    .panel{
+        width: 100%;
+        display: none;
+        overflow: hidden;
+        position: relative;
+        left: 0;
+        top: 0;
+        z-index: 100;
+    }
+    #mainnav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        text-align: right;
+        z-index:500;
+    }
+    #mainnav ul{
+        border-bottom: 1px solid #ccc;
+        background: #fff;
+        text-align: left;
+    }
+    #mainnav li a{
+        position: relative;
+        display:block;
+        padding:15px 25px;
+        border-bottom: 1px solid #ccc;
+        color: #000;
+        font-weight: 400;
+    }
+    #mainnav li a:before{
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        width: 6px;
+        height: 6px;
+        margin: -4px 0 0 0;
+        border-top: solid 2px #000;
+        border-right: solid 2px #000;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+/* mobile svg */
+.svg1{
+  position: relative;
+  top: -100px;
+}
+/* mobile #SEC01 */
+#sec01 img{
+  position: relative;
+  left:70%;
+}
+/* mobile #SEC02 */
+    .container{
+    display: flex;
+    flex-flow: column wrap; /* 上から下で折り返し有り */
+    justify-content: center; /* アイテムを中央揃え */
+    }
+/* mobile #SEC03 */
+#sec03{
+  position: relative;
+  top: 50px;
+}
+#img1{
+  width: 80%;
+  padding: 10% 10% 3% 10%;
+}
+#img2{
+  width: 39%;
+  padding-left: 10%;
+}
+#img3{
+  width: 39%;
+  padding-left: 2%;
+}
+.box1 {
+    width: 90%;
+    height: 70vh;
+    margin: 5% auto;
+    background-color: #FFF
+}
+/* mobile #SEC04 */
+#img1{
+  width: 75%;
+  padding: 5% 45% 3% 5%;
+}
+.textbox{
+  width: 35%;
+  height: 400px;
+}
+#sec04 h1 {
+  white-space: nowrap;
+  padding: 5%;
+  font-size: 35px;
+  margin-left: 10px;
+  position: relative;
+  top: 50px;
+  right:-40px;
+}
+#sec04 p {
+  padding: 3%;
+  line-height: 2;
+  margin-left: 20px;
+  position: relative;
+  top: 150px;
+  right:-70px;
+}
+#sec04{
+  width: 100%;
+  position: relative;
+  top: -100px;
+  right:5%;
+}
+/* mobile #SEC05 */
+#img2{
+  width: 55%;
+  position: relative;
+  top: -10px;
+  padding-left:5%;
+}
+/* mobile #SEC06 */
+#sec06{
+  padding-bottom: 10%;
+}
+#img3{
+  width: 40%;
+  position: relative;
+  top: -45px;
+  padding-left:55%;
+}
+}

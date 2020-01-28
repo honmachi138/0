@@ -229,9 +229,13 @@ h3{
    text-align: center;
   	font-size:15px;
   }
-  #sec03 h3,.box_srcollbar,.svg3{
+  #sec03 h3,.box_srcollbar{
     position: relative;
     top: -150px;
+  }
+ .svg3{
+    position: relative;
+    top: -180px;
   }
   .svg2,#sec02{
     position: relative;

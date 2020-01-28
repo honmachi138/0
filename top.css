@@ -283,7 +283,7 @@ body{
 /* mobile
 ------------------------------------------------------------*/
   /* mobile-navi */
-@media screen and (max-width:959px)
+@media screen and (max-width:959px){
   a#menu{
     display: inline-block;
     position: relative;

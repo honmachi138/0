@@ -185,7 +185,7 @@ h3{
 }
 /* PC 
 ------------------------------------------------------------*/
-@media only screen and (min-width:415px){  
+@media screen and (min-width:960px)
 body{
         font-size:14px;
     }
@@ -278,10 +278,12 @@ body{
 		padding: 0 3%;
 		vertical-align: top;
 	}
-}	
+}
+}
 /* mobile
 ------------------------------------------------------------*/
-  /* mobile-navi */	
+  /* mobile-navi */
+@media screen and (max-width:959px)
   a#menu{
     display: inline-block;
     position: relative;
@@ -414,3 +416,4 @@ body{
 	  width: 92% !important;
 		left: 4%; 
 	}
+}

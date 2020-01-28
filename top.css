@@ -282,7 +282,8 @@ body{
 /* mobile
 ------------------------------------------------------------*/
   /* mobile-navi */
-@media screen and (max-width:960px){
+@media screen and (max-width:960px),
+       screen and (orientation: landscape){
   a#menu{
     display: inline-block;
     position: relative;

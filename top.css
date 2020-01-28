@@ -279,11 +279,10 @@ body{
 		vertical-align: top;
 	}
 }
-}
 /* mobile
 ------------------------------------------------------------*/
   /* mobile-navi */
-@media screen and (max-width:959px){
+@media screen and (max-width:960px){
   a#menu{
     display: inline-block;
     position: relative;

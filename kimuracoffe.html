@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>キムラコーヒー店</title>
+<link rel="stylesheet" href="./css/kimuracoffe.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+<!-- ヘッダー -->
+<nav id="mainnav">
+    <p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+    <div class="panel">
+        <ul>
+            <li><a href="file:///Users/macuser/Desktop/プログラミング/top/top.html#header">TOP</a></li>
+            <li><a href="file:///Users/macuser/Desktop/プログラミング/top/top.html#sec01">ABOUT</a></li>
+            <li><a href="file:///Users/macuser/Desktop/プログラミング/top/top.html#sec02">SHOP</a></li>
+            <li><a href="file:///Users/macuser/Desktop/プログラミング/top/top.html#sec03">INFORMATION</a></li>
+            <li><a href="file:///Users/macuser/Desktop/プログラミング/top/top.html#sec04">ACCESS</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- 写真 -->
+<section id="sec01">
+<div><img src="images/IMG_4654.JPG" ></div>
+</section>
+<!-- /写真 -->
+<svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFF" fill-opacity="1" d="M0,0L30,26.7C60,53,120,107,180,133.3C240,160,300,160,360,170.7C420,181,480,203,540,218.7C600,235,660,245,720,250.7C780,256,840,256,900,256C960,256,1020,256,1080,229.3C1140,203,1200,149,1260,133.3C1320,117,1380,139,1410,149.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+<!-- 情報 -->
+<section id="sec02" class="fadein">
+<div class="container">
+  <h1>キムラコーヒー店</h1>
+    <table>
+    <tbody>
+        <tr>
+            <th><img src="icon/営業時間アイコン.jpg"></th>
+            <td>7:30〜17:20</td>
+        </tr>
+        <tr>
+            <th><img src="icon/電話アイコン.jpg"></th>
+            <td>0586-73-4281</td>
+        </tr>
+         <tr>
+            <th><img src="icon/住所アイコン.jpg"></th>
+            <td>愛知県一宮市本町3丁目2−20</td>
+        </tr>
+    </tbody>
+    </table>
+</section>
+<section id="sec03">
+   <img src="images/IMG_4652.JPG" id="img1" class="fadein">
+</section>
+<section id="sec04" class="fadein">
+  <div class="textbox">
+   <h1>コーヒー豆が買える喫茶店</h1>
+<p>
+  メイン通りから西にある喫茶店「キムラコーヒー店」<br>
+  店内では数種類のサンドイッチが食べられます。
+  また、店の前では10種類ほどのコーヒー豆を100g単位で購入できます。
+</p>
+  </div>
+</section>
+<section id="sec05">
+   <img src="images/IMG_4637.JPG" id="img2" class="fadein">
+</section>
+<section id="sec06">
+   <img src="images/image2.jpg" id="img3" class="fadein">
+</section>
+
+<!-- フェードインー --> 
+<script>
+$(function(){
+    $(window).scroll(function (){
+        $('.fadein').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 200){
+                $(this).addClass('scrollin');
+            }
+        });
+    });
+});
+</script>
+</div>
+</body>
+</html>

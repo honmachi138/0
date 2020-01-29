@@ -98,7 +98,6 @@ h3{
 	padding-left: 0px;
 }
 .col2 img{
-	max-width: 250px;
 	display: block;
 	margin: -5px auto 30px;
     transition: 0.5s ;
@@ -255,11 +254,11 @@ h3{
 }
 
   /* pc-SEC02 SHOP */
-    .col2{
+.col2{
 		text-align: center;
 	}
 
-	.col2 li{
+.col2 li{
 		display: inline-block;
 		width: 30%;
 		padding: 0 5%;
@@ -267,6 +266,9 @@ h3{
 		vertical-align: top;
 		text-align: left;
 	}
+.col2 img{
+	max-width: 330px;
+  }
 
   /* pc-SEC04 ACCESS */
 	.col3 li{
@@ -400,6 +402,9 @@ h3{
 	}
   .col2{
   	margin-top: 10%;
+  }
+ .col2 img{
+	max-width: 250px;
   }
 
   /* mobile-SEC04 ACCESS */

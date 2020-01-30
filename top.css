@@ -57,11 +57,6 @@ h3{
     height:568px;
     margin-left:-640px;
 }
-
-#slogan img{
-	position: absolute;
-        transform: translate(0, -50%);
-}
 #slogan h{
 	font-weight:normal;
 	color:#FFF;
@@ -210,14 +205,9 @@ h3{
     }
 
   /* pc-共通 */
-  #slogan img{
-	  width:25%;
-	  left:40%;
-	  top:40%;
-  }
   #slogan h{
 	  top:350px;
-	  text-aline:center;
+	  left:48%;
   }
   h3{
    text-align: center;
@@ -375,11 +365,6 @@ h3{
     }
 
   /* mobile-共通 */
-  #slogan img{
-	  left:25%;
-	  width:55%;
-	  top: 50%;
-  }
   #slogan h{
 	  top:380px;
 	  text-aline:center;

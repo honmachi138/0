@@ -164,7 +164,9 @@ h3{
 	padding-bottom: 80px;
     text-align: center;
 }
-
+#sec01 h3{
+	z-index: 12;
+}
 /* SEC02 SHOP
 ------------------------------------------------------------*/
 .col2 li{
@@ -337,7 +339,7 @@ h3{
 }
   .svg1{
     position: relative;
-    top: -180px;
+    top: -170px;
 }
 
   /* pc-SEC02 SHOP */

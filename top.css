@@ -64,10 +64,9 @@ h3{
 }
 #slogan h2{
 	font-weight:normal;
-	text-aline:center;
 	color:#FFF;
 	position:relative;
-	fontsize:15px;
+	font-size:15px;
 	
 }
 
@@ -218,6 +217,7 @@ h3{
   }
   #slogan h2{
 	  top:350px;
+	  text-aline:center;
   }
   h3{
    text-align: center;
@@ -382,6 +382,7 @@ h3{
   }
   #slogan h2{
 	  top:380px;
+	  text-aline:center;
 	}
   h3{
     text-align:center;

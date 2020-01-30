@@ -52,6 +52,7 @@ h3{
 
 #headerimg{
     position:absolute;
+    left:50%;
     width:1280px;
     height:568px;
     margin-left:-640px;

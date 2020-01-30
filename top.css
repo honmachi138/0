@@ -62,7 +62,7 @@ h3{
 	position: absolute;
         transform: translate(0, -50%);
 }
-#slogan h2{
+#slogan h{
 	font-weight:normal;
 	color:#FFF;
 	position:relative;
@@ -215,7 +215,7 @@ h3{
 	  left:40%;
 	  top:40%;
   }
-  #slogan h2{
+  #slogan h{
 	  top:350px;
 	  text-aline:center;
   }
@@ -380,7 +380,7 @@ h3{
 	  width:55%;
 	  top: 50%;
   }
-  #slogan h2{
+  #slogan h{
 	  top:380px;
 	  text-aline:center;
 	}

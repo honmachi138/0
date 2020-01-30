@@ -59,7 +59,7 @@ h3{
   .main_logo {
     z-index:11;
     position: absolute;
-    top:50%;
+    top:30%;
     left:50%;
     transform:translate(-50%,-50%);
     width:50%;

@@ -111,9 +111,6 @@ th,td {
     width: 90%;
     margin: 0 auto;
    }
-#sec02{
-    padding-bottom: 30%;
-}
 }
 
 
@@ -214,7 +211,7 @@ th,td {
     }
 /* #sec01 mobile */
     img{width: 95vw;
-        padding-top: 15%;
+        margin-top: 10%;
         margin: 0 auto;
     }
 #sec01{

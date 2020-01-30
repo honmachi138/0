@@ -103,7 +103,7 @@ th,td {
 #sec01{
     padding-top: 10%;
 }
-/* #sec02 */
+/* #sec02 pc */
    th{
     vertical-align:top;
    }
@@ -111,6 +111,7 @@ th,td {
     width: 90%;
     margin: 0 auto;
    }
+   #sec02{padding-bottom:20%;}
 }
 
 

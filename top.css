@@ -7,6 +7,7 @@ body{
 ul{list-style:none;}
 * {margin: 0;}/* セクション間を0に*/
 svg{
+    z-index:11;
     margin: 0;
     padding: 0;
     vertical-align: top;
@@ -168,9 +169,6 @@ h3{
 
 /* SEC01 ABOUT
 ------------------------------------------------------------*/
-.svg{
-	z-index:11;
-}
 .about{
 	width: 70%;
 	margin: 0 auto;

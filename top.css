@@ -54,8 +54,8 @@ h3{
   position   : relative;
   overflow   : hidden;
                     /* 画像のサイズに合わせて変更ください */
-  width      : 200px;
-  height     : 200px;
+  width      : 1280px;
+  height     : 568px;
   margin     : auto;      /* サンプルは中央寄せの背景：白 */
 }
  /*=== 画像の設定 ======================================= */
@@ -85,8 +85,8 @@ h3{
 @keyframes slideAnime{
    0% { left: 100%  }
    1% { left: 0     }
-  9% { left: 0     }
-  10% { left: -100% }
+  19% { left: 0     }
+  20% { left: -100% }
  100% { left: -100% }
 }
 #slogan h{

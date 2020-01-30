@@ -96,7 +96,6 @@ h3{
     height:100%;
     object-fit: cover;
     position: absolute;
-    left: 0;
     top: 0;
     -webkit-animation: anime 36s 0s infinite;
     animation: anime 36s 0s infinite; }
@@ -308,6 +307,7 @@ h3{
     height:auto;
 }
  .sp { display: none !important; }
+.main_imgM{left:0%;}
   h3{
    text-align: center;
   	font-size:200%;
@@ -480,6 +480,7 @@ h3{
      width:80%;
      height:auto;
 }
+.main_img {left:-100%;}
   h3{
     text-align:center;
     font-size:30px;

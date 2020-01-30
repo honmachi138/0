@@ -356,7 +356,12 @@ h3{
 .col2 img{
 	max-width: 330px;
   }
-
+	
+ /* pc-SEC05 INFORMATION */
+.box_srcollbar{
+	width:50%;
+	}
+	
   /* pc-SEC04 ACCESS */
 	.col3 li{
 		width: 40%;
@@ -493,7 +498,12 @@ h3{
  .col2 img{
 	max-width: 250px;
   }
-
+	
+ /* mobile-SEC05 INFORMATION */
+.box_srcollbar{
+	width:70%;
+	}
+	
   /* mobile-SEC04 ACCESS */
   .col3{
   	margin:auto 2%;

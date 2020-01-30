@@ -50,7 +50,7 @@ h3{
     height:568px;
 }
 
-#header img{
+#headerimg{
     position:absolute;
     left:50%;
     width:1280px;
@@ -58,15 +58,12 @@ h3{
     margin-left:-640px;
 }
 
-#slogan{
+#slogan img{
 	position: absolute;
-  top: 50%;
-	width: 100%;
+        top: 50%;
+	width: 20%;
 	-webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-	color: #fff;
-	line-height: 1.2;
-	text-align: center;
 }
 #slogan h1{
 	font-size: 40px;

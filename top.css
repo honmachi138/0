@@ -53,16 +53,19 @@ h3{
 .slide {
   position   : relative;
   overflow   : hidden;
-  width      : 100%;
+                    /* 画像のサイズに合わせて変更ください */
+  width      : 200px;
+  height     : 200px;
+  margin     : auto;      /* サンプルは中央寄せの背景：白 */
 }
  /*=== 画像の設定 ======================================= */
 .slide img {
   display    : block;
-  position   : absolute; 
-  left:50%;
-   width:1280px;
-   height:568px;
-   margin-left:-640px;
+  position   : absolute;
+                      /* 画像のサイズを表示エリアに合せる */
+  width      : inherit;
+  height     : inherit;
+  left       : 100%;
   animation  : slideAnime 50s ease infinite;
 }
  

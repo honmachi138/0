@@ -10,11 +10,6 @@
 </head>
 <body>
 <!-- ヘッダー -->
-   <script>
-  $(document).ready(function(e) {
-    $('img[usemap]').rwdImageMaps();
-  });
-   </script>
   <nav id="mainnav">
     <p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
     <div class="panel">
@@ -130,6 +125,10 @@
 </section>
 <!-- 座標のレスポンシブ化とフェードインー --> 
 <script>
+  $(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+  });
+   
 $(function(){
     $(window).scroll(function (){
         $('.fadein').each(function(){

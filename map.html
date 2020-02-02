@@ -25,6 +25,11 @@
 </nav>
 
 <!-- マップ -->
+<script>
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
+</script>
 <section id="sec01">
 <div class="map">
     <img src="https://github.com/honmachi138/0/blob/master/map1.jpg?raw=true" usemap="#ImageMap" class="fadein">
@@ -125,11 +130,6 @@
 </table>
 </section>
 <!-- 座標のレスポンシブ化とフェードインー --> 
-<script>
-$(window).ready(function(e) {
-    $('img[usemap]').rwdImageMaps();
-});
-</script>
 <script>
 $(function(){
     $(window).scroll(function (){

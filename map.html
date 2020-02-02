@@ -6,7 +6,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" media="all" href="map.css">
     <script src="script.js"></script>
-    <script src="jquery.jmap.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="jquery.rwdImageMaps.js"></script>
 </head>
 <body>
 <!-- ヘッダー -->
@@ -124,9 +125,9 @@
 </section>
 <!-- 座標のレスポンシブ化とフェードインー --> 
 <script>
-$(document).load(function(){
-     $("img[usemap]").jMap();
-});
+	$(document).ready(function(e) {
+		$('img[usemap]').rwdImageMaps();
+	});
 </script>
    
 <script>

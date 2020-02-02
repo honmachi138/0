@@ -7,7 +7,7 @@
     <link rel="stylesheet" media="all" href="map.css">
     <script src="script.js"></script>
   <script src="jquery.js"></script>
-<script src="jquery.rwdImageMaps.js"></script>
+　<script src="jquery.jmap.min.js"></script>
 </head>
 <body>
 <!-- ヘッダー -->
@@ -126,9 +126,9 @@
 </section>
 <!-- 座標のレスポンシブ化とフェードインー --> 
 <script>
-	$(document).ready(function(e) {
-		$('img[usemap]').rwdImageMaps();
-	});
+$(window).load(function(){
+$("img[usemap]").jMap();
+}); 
 </script> 
 <script>
 $(function(){
